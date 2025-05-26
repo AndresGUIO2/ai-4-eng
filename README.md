@@ -14,3 +14,9 @@ Este proyecto busca predecir el nivel de desempeño (bajo, medio-bajo, medio-alt
 ## Enlace al proyecto en Kaggle
 
 [Competencia en Kaggle: Pruebas Saber Pro Colombia](https://www.kaggle.com/competitions/udea-ai-4-eng-20251-pruebas-saber-pro-colombia)
+
+## Procesamiento de datos
+
+Para el procesamiento de datos, se utilizó la librería polars con el fin de aprovechar sus capacidades multicore frente a pandas. Se realizaron operaciones que facilitan el análisis posterior, como estandarizaciones, normalizaciones y se tomaron decisiones con respecto de los datos faltantes: se intentarán utilizar medidas que permitan su tratamiento.
+
+[Video explicativo](https://www.youtube.com/watch?v=kkbyjBb5ElQ)
