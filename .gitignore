@@ -1,2 +1,10 @@
 udea-ai-4-eng-20251-pruebas-saber-pro-colombia
 preprocessed_data
+autogluon_final_models_3
+autogluon_final_models
+autogluon_final_models_2
+
+submission_autogluon_final.csv
+submission_xgboost_best.csv
+submission.csv
+XGsumission.csv
