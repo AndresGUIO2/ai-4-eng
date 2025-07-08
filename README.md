@@ -19,4 +19,8 @@ Este proyecto busca predecir el nivel de desempeño (bajo, medio-bajo, medio-alt
 
 Para el procesamiento de datos, se utilizó la librería polars con el fin de aprovechar sus capacidades multicore frente a pandas. Se realizaron operaciones que facilitan el análisis posterior, como estandarizaciones, normalizaciones y se tomaron decisiones con respecto de los datos faltantes: se intentarán utilizar medidas que permitan su tratamiento.
 
-[Video explicativo](https://www.youtube.com/watch?v=kkbyjBb5ElQ)
+## Creación del modelo
+
+Para la creación del modelo usamos XGBoost con el fin de predecir el rendimiento de los estudiantes en categorías como ‘bajo’, ‘medio-bajo’, ‘medio-alto’ y ‘alto’, lo cual es un típico problema de clasificación multiclase abordado a través de un algoritmo de Machine Learning.
+
+[Video explicativo](https://youtu.be/hPHWbsW19o8)
